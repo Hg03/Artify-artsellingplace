@@ -4,7 +4,7 @@ import { View, Text, Image } from "react-native";
 import { EthPrice } from "./SubInfo";
 import { COLORS, SIZES, FONTS } from "../constants";
 
-const DetailsBid = ({ bid }) => {
+const DetailsBid = ({ conts }) => {
   return (
     <View
       style={{
@@ -15,13 +15,13 @@ const DetailsBid = ({ bid }) => {
         marginVertical: SIZES.base,
         paddingHorizontal: SIZES.base,
       }}
-      key={bid.id}
+      key={conts.id}
     >
-      <Image
+      {/* <Image
         source={bid.image}
         resizeMode="contain"
         style={{ width: 48, height: 48 }}
-      />
+      /> */}
 
       <View
         style={{
@@ -37,7 +37,7 @@ const DetailsBid = ({ bid }) => {
             color: COLORS.primary,
           }}
         >
-          Bid placed by {bid.name}
+          {conts.gmail}
         </Text>
         <Text
           style={{
@@ -47,11 +47,11 @@ const DetailsBid = ({ bid }) => {
             marginTop: 3,
           }}
         >
-          {bid.date}
+          {conts.number}
         </Text>
       </View>
 
-      <EthPrice price={bid.price} />
+      {/* <EthPrice price={bid.price} /> */}
     </View>
   );
 };
