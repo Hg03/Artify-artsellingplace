@@ -5,18 +5,21 @@ import left from "../assets/icons/left.png";
 import search from "../assets/icons/search.png";
 
 import logo from "../assets/images/logo.png";
-import nft01 from "../assets/images/nft01.png";
-import nft02 from "../assets/images/nft02.jpeg";
-import nft03 from "../assets/images/nft03.jpeg";
-import nft04 from "../assets/images/nft04.jpeg";
-import nft05 from "../assets/images/nft05.jpeg";
-import nft06 from "../assets/images/nft06.jpeg";
-import nft07 from "../assets/images/nft07.jpeg";
+import nft01 from "../assets/images/shoes.jpg";
+import nft02 from "../assets/images/shots.jpg";
+import nft03 from "../assets/images/watch1.jpg";
+import nft04 from "../assets/images/goku.jpg";
+import nft05 from "../assets/images/shirt1.jpg";
+import nft06 from "../assets/images/pen.jpg";
+import nft07 from "../assets/images/book.jpg";
 
+import gmail from "../assets/images/gmail.svg";
+import contact from "../assets/images/contact.svg";
+import insta from "../assets/images/insta.svg";
 import person01 from "../assets/images/person01.png";
-import person02 from "../assets/images/person02.png";
-import person03 from "../assets/images/person03.png";
-import person04 from "../assets/images/person04.png";
+import circleVector_1 from "../assets/images/circleVector_1.png";
+import circleVector_2 from "../assets/images/circleVector_2.png";
+import circleVector_3 from "../assets/images/circleVector_3.png";
 
 export default {
   badge,
@@ -25,6 +28,7 @@ export default {
   left,
   search,
 
+  person01,
   logo,
   nft01,
   nft02,
@@ -33,9 +37,10 @@ export default {
   nft05,
   nft06,
   nft07,
-
-  person01,
-  person02,
-  person03,
-  person04,
+  gmail,
+  contact,
+  insta,
+  circleVector_1,
+  circleVector_2,
+  circleVector_3,
 };
