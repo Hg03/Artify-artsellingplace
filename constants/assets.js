@@ -16,10 +16,15 @@ import nft07 from "../assets/images/book.jpg";
 import gmail from "../assets/images/gmail.svg";
 import contact from "../assets/images/contact.svg";
 import insta from "../assets/images/insta.svg";
-import person01 from "../assets/images/person01.png";
 import circleVector_1 from "../assets/images/circleVector_1.png";
 import circleVector_2 from "../assets/images/circleVector_2.png";
 import circleVector_3 from "../assets/images/circleVector_3.png";
+import person01 from "../assets/images/person01.png";
+import person02 from "../assets/images/person02.png";
+import person03 from "../assets/images/person03.png";
+import person04 from "../assets/images/person04.png";
+import wish from "../assets/images/wishlist.svg";
+import CirVec from "../assets/images/CirVec.png";
 
 export default {
   badge,
@@ -27,7 +32,7 @@ export default {
   heart,
   left,
   search,
-
+  wish,
   person01,
   logo,
   nft01,
@@ -43,4 +48,8 @@ export default {
   circleVector_1,
   circleVector_2,
   circleVector_3,
+  person02,
+  person03,
+  person04,
+  CirVec,
 };
