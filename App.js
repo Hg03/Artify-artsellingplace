@@ -2,9 +2,12 @@ import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { useFonts } from "expo-font";
+import BottomTab from "./Navigation/BottomTab";
 
 import Home from "./screens/Home";
 import Details from "./screens/Details";
+import Wishlist from "./screens/Wishlist";
+import Settings from "./screens/Settings";
 
 const theme = {
   ...DefaultTheme,
@@ -29,15 +32,19 @@ const App = () => {
 
   return (
     <NavigationContainer theme={theme}>
-      <Stack.Navigator
+      {/* <Stack.Navigator
         screenOptions={{
           headerShown: false,
         }}
-        initialRouteName="Home"
+        initialRouteName="Settings"
       >
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Details" component={Details} />
-      </Stack.Navigator>
+        <Stack.Screen name = "Home" component={Home} />
+        <Stack.Screen name = "Details" component={Details} />
+        <Stack.Screen name = "Wishlist" component={Wishlist} />
+        <Stack.Screen name = "Settings" component={Settings} />
+      </Stack.Navigator> */}
+      <BottomTab />
+      
     </NavigationContainer>
   );
 };
