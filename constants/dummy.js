@@ -3,113 +3,177 @@ import assets from "./assets";
 const NFTData = [
   {
     id: "NFT-01",
-    name: "McStan shoes",
-    creator: "Aman Pandagre",
-    price: 3,
+    name: "Shoes",
+    creator: "Putri Intan",
+    price: 4.25,
     description:
-      "Description consists of how art is made, why you made and what are its quality etc etc etc.Really elegant shoes made by me at home, with scrap material. Dil se mehnat kar rha hu guys, please like share and subscribe. Ye kaam mera pura khandaan karta aa rha ha, par hume kabhi koi zariya nhi mila apne hunar ko aap tak pahuchane ki",
+      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.",
     image: assets.nft01,
-    conts: [
+    bids: [
       {
-        id: "gmail1",
-        gmail: "gehloth03@gmail.com",
-        number : "8319855397",
+        id: "BID-11",
+        name: "Jessica Tan",
+        price: 4.25,
+        image: assets.person02,
       },
-  
+      {
+        id: "BID-12",
+        name: "Jennifer Sia",
+        price: 4.5,
+        image: assets.person03,
+      },
+      {
+        id: "BID-13",
+        name: "Rosie Wong",
+        price: 4.75,
+        image: assets.person04,
+      },
     ],
   },
   {
     id: "NFT-02",
-    name: "Immune Shots",
-    creator: "Muskan Mishra",
-    price: 4,
+    name: "Shots",
+    creator: "Siti Nurhaliza",
+    price: 7.25,
     description:
-      "Really elegant shoes made by me at home, with scrap material. Dil se mehnat kar rha hu guys, please like share and subscribe. Ye kaam mera pura khandaan karta aa rha ha, par hume kabhi koi zariya nhi mila apne hunar ko aap tak pahuchane ki",
+      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
     image: assets.nft02,
-    conts: [
+    bids: [
       {
-        id: "gmail1",
-        gmail: "gehloth03@gmail.com",
-        number : "83124356567",
+        id: "BID-21",
+        name: "Jessica Tan",
+        price: 7.05,
+        image: assets.person04,
       },
     ],
   },
   {
     id: "NFT-03",
-    name: "IWC watch",
-    creator: "Karan Sahu",
-    price: 5,
+    name: "Watch",
+    creator: "Elisabeth aho",
+    price: 95.25,
     description:
-      "Really elegant shoes made by me at home, with scrap material. Dil se mehnat kar rha hu guys, please like share and subscribe. Ye kaam mera pura khandaan karta aa rha ha, par hume kabhi koi zariya nhi mila apne hunar ko aap tak pahuchane ki",
+      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
     image: assets.nft03,
-    conts: [
+    bids: [
       {
-        id: "gmail1",
-        gmail: "gehloth03@gmail.com",
-        number : "8374174309",
+        id: "BID-31",
+        name: "Jessica Tan",
+        price: 95.25,
+        image: assets.person02,
+      },
+      {
+        id: "BID-32",
+        name: "Jennifer Sia",
+        price: 95.5,
+        image: assets.person03,
       },
     ],
   },
   {
     id: "NFT-04",
-    name: "Goku toy",
-    creator: "Harish Gehlot",
-    price: 3,
+    name: "Goku",
+    creator: "Putri Intan",
+    price: 54.25,
     description:
       "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur.",
     image: assets.nft04,
-    conts: [
+    bids: [
       {
-        id: "gmail1",
-        gmail : "gehloth03@gmail.com",
-        number : assets.gmail,
+        id: "BID-41",
+        name: "Jessica Tan",
+        price: 56.25,
+        image: assets.person02,
       },
-      
+      {
+        id: "BID-42",
+        name: "Jennifer Sia",
+        price: 54.25,
+        image: assets.person03,
+      },
+      {
+        id: "BID-43",
+        name: "Rosie Wong",
+        price: 55.15,
+        image: assets.person04,
+      },
+      {
+        id: "BID-44",
+        name: "Vincent Swift",
+        price: 54.15,
+        image: assets.person02,
+      },
     ],
   },
   {
     id: "NFT-05",
-    name: "Sky matte shirt",
-    creator: "Sanskari",
-    price: 2,
+    name: "Shirt",
+    creator: "David doe",
+    price: 10.25,
     description:
       "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.",
     image: assets.nft05,
-    conts: [
+    bids: [
       {
-        id: "gmail1",
-        gmail: "gehloth03@gmail.com",
-        number : "934u092354",
+        id: "BID-51",
+        name: "Jessica Tan",
+        price: 10.25,
+        image: assets.person02,
       },
-     
     ],
   },
   {
     id: "NFT-06",
-    name: "Fountain",
-    creator: "Harish Gehlot",
-    price: 4,
+    name: "Pen",
+    creator: "Leo Messi",
+    price: 20.25,
     description:
       "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
     image: assets.nft06,
-    conts: [
+    bids: [
       {
-        id: "gmail1",
-        gmail: "gehloth03@gmail.com",
-        number : "670957695",
+        id: "BID-61",
+        name: "Jessica Tan",
+        price: 20.25,
+        image: assets.person02,
       },
-      
+      {
+        id: "BID-62",
+        name: "Jennifer Sia",
+        price: 20.5,
+        image: assets.person03,
+      },
+      {
+        id: "BID-63",
+        name: "Rosie Wong",
+        price: 20.75,
+        image: assets.person04,
+      },
+      {
+        id: "BID-64",
+        name: "Siti Nurhaliza",
+        price: 21.25,
+        image: assets.person02,
+        date: "December 31, 2019 at 3:50 PM",
+      },
+      {
+        id: "BID-65",
+        name: "Kaitlyn Lee",
+        price: 7.25,
+        image: assets.person02,
+        date: "December 31, 2019 at 3:50 PM",
+      },
     ],
   },
   {
     id: "NFT-07",
-    name: "Milk and Honey",
-    creator: "Rupi Kaur",
-    price: 5,
+    name: "Novel",
+    creator: "Victor de la Cruz",
+    price: 18.25,
     description:
       "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis. Ullamcorper platea penatibus ornare egestas nulla ligula hendrerit nisl suscipit sociosqu maximus, tincidunt aptent habitant purus pharetra ultrices dapibus laoreet nisi lacinia. Porta malesuada netus vel sapien conubia porttitor aliquam ut pretium ante litora molestie senectus magna egestas sociosqu, eget aliquet fames pharetra felis posuere varius fringilla quisque in arcu montes eu ullamcorper.",
     image: assets.nft07,
-    conts: [],
+    bids: [],
   },
 ];
 
