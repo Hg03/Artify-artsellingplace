@@ -7,7 +7,7 @@ import { ImageBackground } from "react-native-web";
 
 import { COLORS, FONTS, SIZES, assets } from "../constants";
 
-import CircleVector from "./CircleVector";
+import circle from '../assets/images/CirVec1.png';
 
 
 
@@ -15,15 +15,17 @@ const HomeHeader = ({ onSearch }) => {
   return (
     <SafeAreaView>
       <ScrollView>
-        <CircleVector/>
+        <Image source={circle} style = {{ width : 180, height : 180,}}/>
+        
         <View
           style={{
-            backgroundColor: '#363488',
+            // backgroundColor: '#363488',
             padding: SIZES.font,
             marginTop: -1,
             
           }}
         >
+          
           
           
           <View
