@@ -18,6 +18,8 @@ import Settings from "../screens/Settings";
 import Faqs from "../screens/Faqs";
 import Details from "../screens/Details";
 import Checkout from "../screens/Checkout";
+import SearchPage from "../screens/SearchPage";
+import SellerProfile from "../screens/SellerProfile";
 
 const AddPost=()=>{
     return(
@@ -77,7 +79,7 @@ screenOptions={{
    
     
 
-<Tab.Screen name="Checkout" component={Checkout}
+<Tab.Screen name="SellerProfile" component={SellerProfile}
     options={{
         tabBarIcon:({focused})=>(
             <View>
